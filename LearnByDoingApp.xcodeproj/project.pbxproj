@@ -11,6 +11,8 @@
 		B293CB0628DB96170023EFC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293CB0528DB96170023EFC1 /* ContentView.swift */; };
 		B293CB0828DB96180023EFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B293CB0728DB96180023EFC1 /* Assets.xcassets */; };
 		B293CB0B28DB96180023EFC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B293CB0A28DB96180023EFC1 /* Preview Assets.xcassets */; };
+		B293CB1228DB96630023EFC1 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B293CB1128DB96630023EFC1 /* sound-chime.mp3 */; };
+		B293CB1428DB979C0023EFC1 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = B293CB1328DB979C0023EFC1 /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B293CB0528DB96170023EFC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B293CB0728DB96180023EFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B293CB0A28DB96180023EFC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B293CB1128DB96630023EFC1 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		B293CB1328DB979C0023EFC1 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				B293CB0328DB96170023EFC1 /* LearnByDoingAppApp.swift */,
 				B293CB0528DB96170023EFC1 /* ContentView.swift */,
 				B293CB0728DB96180023EFC1 /* Assets.xcassets */,
+				B293CB1128DB96630023EFC1 /* sound-chime.mp3 */,
+				B293CB1328DB979C0023EFC1 /* Data */,
 				B293CB0928DB96180023EFC1 /* Preview Content */,
 			);
 			path = LearnByDoingApp;
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B293CB0B28DB96180023EFC1 /* Preview Assets.xcassets in Resources */,
+				B293CB1228DB96630023EFC1 /* sound-chime.mp3 in Resources */,
+				B293CB1428DB979C0023EFC1 /* Data in Resources */,
 				B293CB0828DB96180023EFC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
