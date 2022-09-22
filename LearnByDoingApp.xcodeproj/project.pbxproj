@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2182E7628DC0BE6000BCED2 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2182E7528DC0BE6000BCED2 /* CardModel.swift */; };
+		B2182E7828DC0CB3000BCED2 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2182E7728DC0CB3000BCED2 /* CardData.swift */; };
 		B293CB0428DB96170023EFC1 /* LearnByDoingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293CB0328DB96170023EFC1 /* LearnByDoingAppApp.swift */; };
 		B293CB0628DB96170023EFC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293CB0528DB96170023EFC1 /* ContentView.swift */; };
 		B293CB0828DB96180023EFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B293CB0728DB96180023EFC1 /* Assets.xcassets */; };
 		B293CB0B28DB96180023EFC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B293CB0A28DB96180023EFC1 /* Preview Assets.xcassets */; };
 		B293CB1228DB96630023EFC1 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B293CB1128DB96630023EFC1 /* sound-chime.mp3 */; };
-		B293CB1428DB979C0023EFC1 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = B293CB1328DB979C0023EFC1 /* Data */; };
 		B293CB1728DB9E6E0023EFC1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293CB1628DB9E6E0023EFC1 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2182E7528DC0BE6000BCED2 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		B2182E7728DC0CB3000BCED2 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		B293CB0028DB96170023EFC1 /* LearnByDoingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnByDoingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B293CB0328DB96170023EFC1 /* LearnByDoingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnByDoingAppApp.swift; sourceTree = "<group>"; };
 		B293CB0528DB96170023EFC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B293CB0728DB96180023EFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B293CB0A28DB96180023EFC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B293CB1128DB96630023EFC1 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
-		B293CB1328DB979C0023EFC1 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		B293CB1528DB9A6E0023EFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B293CB1628DB9E6E0023EFC1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,9 +64,10 @@
 				B293CB0328DB96170023EFC1 /* LearnByDoingAppApp.swift */,
 				B293CB0528DB96170023EFC1 /* ContentView.swift */,
 				B293CB1628DB9E6E0023EFC1 /* CardView.swift */,
+				B2182E7528DC0BE6000BCED2 /* CardModel.swift */,
+				B2182E7728DC0CB3000BCED2 /* CardData.swift */,
 				B293CB0728DB96180023EFC1 /* Assets.xcassets */,
 				B293CB1128DB96630023EFC1 /* sound-chime.mp3 */,
-				B293CB1328DB979C0023EFC1 /* Data */,
 				B293CB0928DB96180023EFC1 /* Preview Content */,
 			);
 			path = LearnByDoingApp;
@@ -138,7 +141,6 @@
 			files = (
 				B293CB0B28DB96180023EFC1 /* Preview Assets.xcassets in Resources */,
 				B293CB1228DB96630023EFC1 /* sound-chime.mp3 in Resources */,
-				B293CB1428DB979C0023EFC1 /* Data in Resources */,
 				B293CB0828DB96180023EFC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2182E7828DC0CB3000BCED2 /* CardData.swift in Sources */,
 				B293CB0628DB96170023EFC1 /* ContentView.swift in Sources */,
+				B2182E7628DC0BE6000BCED2 /* CardModel.swift in Sources */,
 				B293CB1728DB9E6E0023EFC1 /* CardView.swift in Sources */,
 				B293CB0428DB96170023EFC1 /* LearnByDoingAppApp.swift in Sources */,
 			);
