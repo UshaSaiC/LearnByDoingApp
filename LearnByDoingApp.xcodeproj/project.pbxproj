@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B208225E28DC111100FC1E88 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B208225D28DC111100FC1E88 /* PlaySound.swift */; };
 		B2182E7628DC0BE6000BCED2 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2182E7528DC0BE6000BCED2 /* CardModel.swift */; };
 		B2182E7828DC0CB3000BCED2 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2182E7728DC0CB3000BCED2 /* CardData.swift */; };
 		B293CB0428DB96170023EFC1 /* LearnByDoingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B293CB0328DB96170023EFC1 /* LearnByDoingAppApp.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B208225D28DC111100FC1E88 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		B2182E7528DC0BE6000BCED2 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		B2182E7728DC0CB3000BCED2 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		B293CB0028DB96170023EFC1 /* LearnByDoingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnByDoingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 				B2182E7528DC0BE6000BCED2 /* CardModel.swift */,
 				B2182E7728DC0CB3000BCED2 /* CardData.swift */,
 				B293CB0728DB96180023EFC1 /* Assets.xcassets */,
+				B208225D28DC111100FC1E88 /* PlaySound.swift */,
 				B293CB1128DB96630023EFC1 /* sound-chime.mp3 */,
 				B293CB0928DB96180023EFC1 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2182E7828DC0CB3000BCED2 /* CardData.swift in Sources */,
+				B208225E28DC111100FC1E88 /* PlaySound.swift in Sources */,
 				B293CB0628DB96170023EFC1 /* ContentView.swift in Sources */,
 				B2182E7628DC0BE6000BCED2 /* CardModel.swift in Sources */,
 				B293CB1728DB9E6E0023EFC1 /* CardView.swift in Sources */,
